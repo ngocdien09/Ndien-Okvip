@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Giới thiệu bản thân —Zeres.Device ⚡</title>
+<meta name="description" content="NDien —  Kết nối Facebook, Zalo, Telegram." />
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:#05080a;
+    --primary:#00ff9c;
+    --secondary:#00e0ff;
+    --text:#d9fef0;
+    --dim:#7bdab6;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%;}
+  body{
+    margin:0; background:radial-gradient(circle at 50% -20%, #0b2222, #05080a 80%);
+    font-family:Inter, sans-serif; color:var(--text); overflow:auto;
+  }
+  /* Snow canvas */
+  #snow{position:fixed;inset:0;z-index:0;pointer-events:none;}
+  /* Grid background */
+  .grid{
+    position:fixed; inset:0; z-index:0; pointer-events:none;
+    background:linear-gradient(transparent 95%, rgba(0,255,156,.08) 96%) 0 0/100% 28px,
+               linear-gradient(90deg, transparent 95%, rgba(0,255,156,.08) 96%) 0 0/28px 100%;
+    opacity:.5;
+  }
+  .wrap{
+    position:relative; z-index:2;
+    min-height:100%; display:flex; flex-direction:column;
+    align-items:center; justify-content:center; text-align:center;
+    padding:20px;
+  }
+  .title{
+    font-family:Orbitron, monospace;
+    font-weight:700; font-size:clamp(28px, 6vw, 56px);
+    color:var(--primary); text-shadow:0 0 8px var(--primary),0 0 20px var(--primary);
+    margin-bottom:14px;
+    position:relative; display:inline-block;
+  }
+  .title::after{
+    content:attr(data-glitch);
+    position:absolute; left:2px; top:0; color:var(--secondary);
+    opacity:.6; animation:glitch 2s infinite steps(2);
+    text-shadow:0 0 6px var(--secondary),0 0 14px var(--secondary);
+  }
+  @keyframes glitch{
+    0%,100%{clip-path:inset(0 0 0 0)}
+    25%{clip-path:inset(0 0 50% 0)}
+    50%{clip-path:inset(50% 0 0 0)}
+    75%{clip-path:inset(0 50% 0 0)}
+  }
+  .avatar{
+    width:160px; height:160px; border-radius:50%; margin:20px auto;
+    border:3px solid rgba(0,255,156,.7);
+    box-shadow:0 0 20px rgba(0,255,156,.6), inset 0 0 25px rgba(0,255,156,.25);
+    overflow:hidden;
+  }
+  .avatar img{
+    width:100%; height:100%; object-fit:cover; border-radius:50%;
+  }
+  .subtitle{
+    font-size:clamp(14px,2.5vw,18px); color:var(--dim);
+    margin-bottom:16px;
+  }
+  .bio{
+    max-width:620px; margin:0 auto 22px;
+    padding:16px; border-radius:12px;
+    background:rgba(0,255,156,.05);
+    border:1px solid rgba(0,255,156,.25);
+    font-size:15px; line-height:1.5;
+  }
+  .socials{
+    display:flex; flex-wrap:wrap; justify-content:center;
+    gap:14px; margin-top:10px;
+  }
+  .btn{
+    display:flex; align-items:center; gap:10px;
+    padding:12px 18px; border-radius:10px;
+    color:var(--text); text-decoration:none;
+    border:1px solid rgba(0,255,156,.35);
+    background:rgba(0,255,156,.08);
+    transition:all .15s ease;
+    font-weight:600; font-size:15px;
+    box-shadow:inset 0 0 15px rgba(0,255,156,.08);
+  }
+  .btn:hover{transform:translateY(-2px); border-color:var(--primary); box-shadow:0 0 15px rgba(0,255,156,.4);}  
+  .btn svg{width:20px;height:20px;flex-shrink:0;filter:drop-shadow(0 0 6px var(--primary));}
+  .foot{margin-top:20px; font-size:12px; color:var(--dim);}  
+</style>
+</head>
+<body>
+<canvas id="snow"></canvas>
+<div class="grid"></div>
+
+<div class="wrap">
+  <div class="title" data-glitch="">Zeres.Device⚡</div>
+  <div class="avatar">
+    <!-- Thay link ảnh tại đây -->
+    <img src="https://i.postimg.cc/rpySPpZM/t-i-xu-ng-1.jpg" alt="Avatar NDien" onerror="this.src='https://via.placeholder.com/160x160.png?text=NDien';">
+  </div>
+  <p class="subtitle">Menu Shop Zeres Device 
+•Dịch Vụ Mxh: Mua Bán Acc Game:Liên Quân,Free Fire.Buff Tim,Follow,View Giá Rẻ
+Mua File & Hack Adr &
+ Ios: Menu Hack,AimBody,AimNeck,AimChest,AimĐầu,Aimlock,Giảm Lực Cản,Nhẹ Tâm,Data Head,
+Menu Aimkill,...(Liên Hệ Admin Để Xem All Menu)</p>
+  <div class="bio">Xin Chào Quý Khách-Zeres Device Là Thương Hiệu Uy Tín Số 1 Thị Trường Mang Đến Cho Ae Những Dịch Vụ Ngon-Bổ-Rẻ & Chất Lượng Uy Tín Hàng Đầu.
+Bạn Cần File Full Đỏ ? Bạn Cần Menu Hack ? Hãy Liên Hệ Với Zeres Device Ngay💤👑
+.Hãy Liên Hệ & Kết Nối Với Mình Qua Các Nền Tảng Dưới Đây !
+     <strong></strong> Hãy kết nối với mình qua các kênh dưới đây!
+  </div>
+
+  <div class="socials">
+    <a class="btn" href=" https://www.facebook.com/share/17CJ3ksP3c/?mibextid=wwXIfr"target="_blank" rel="noopener noreferrer" aria-label="Facebook NDien">
+      <!-- icon link -->
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M22 12a10 10 0 1 0-11.6 9.9v-7h-2.3V12h2.3V9.6c0-2.3 1.4-3.6 3.5-3.6 1 0 2 .2 2 .2v2.2h-1.1c-1.1 0-1.5.7-1.5 1.4V12h2.6l-.4 2.9h-2.2v7A10 10 0 0 0 22 12Z"/></svg>
+      Facebook
+    </a>
+    <a class="btn" href="https://zalo.me/84373264026" target="_blank" rel="noopener noreferrer" aria-label="Zalo NDien">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 3h16a1 1 0 0 1 1 1v12.5a1 1 0 0 1-1 1H9l-4.5 3.5V17.5H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z"/></svg>
+      Zalo
+    </a>
+    <a class="btn" href="https://t.me/zeres_ioscheat" target="_blank" rel="noopener noreferrer" aria-label="Telegram NDien">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9.99 15.18 9.8 18.2c.28 0 .4-.12.55-.27l1.33-1.27 2.76 2.02c.5.27.87.13 1.01-.46l1.83-8.58c.17-.77-.29-1.07-.78-.88L5.5 11.1c-.74.29-.73.7-.13.88l3.38 1.05 7.85-4.96-6.61 6.1Z"/></svg>
+      Telegram
+    </a>
+  </div>
+
+  <div class="foot">© <span id="year"></span> Zeres.Device🔫</div>
+</div>
+
+<script>
+  // Năm bản quyền
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Hiệu ứng tuyết neon
+  (function(){
+    const canvas = document.getElementById('snow');
+    const ctx = canvas.getContext('2d');
+    const DPR = Math.max(1, Math.floor(window.devicePixelRatio || 1));
+    let w, h, flakes = [];
+
+    function createFlake(){
+      return {
+        x: Math.random()*w,
+        y: Math.random()*h,
+        r: (Math.random()*1.5 + 0.8) * DPR,
+        s: Math.random()*0.8 + 0.3, // speed
+        a: Math.random()*Math.PI*2,  // angle for sway
+        o: Math.random()*0.6 + 0.4   // opacity
+      };
+    }
+
+    function resize(){
+      w = canvas.width = Math.floor(window.innerWidth * DPR);
+      h = canvas.height = Math.floor(window.innerHeight * DPR);
+      canvas.style.width = window.innerWidth + 'px';
+      canvas.style.height = window.innerHeight + 'px';
+      const targetCount = Math.max(80, Math.floor((w*h)/12000));
+      flakes = Array.from({length: targetCount}, createFlake);
+    }
+
+    function draw(){
+      ctx.clearRect(0,0,w,h);
+      ctx.save();
+      for (let i=0;i<flakes.length;i++){
+        const f = flakes[i];
+        f.y += f.s * DPR;
+        f.x += Math.sin(f.a += 0.01) * 0.5 * DPR;
+
+        // wrap
+        if (f.y > h + 4*DPR){ f.y = -4*DPR; f.x = Math.random()*w; }
+        if (f.x < -4*DPR){ f.x = w + 4*DPR; }
+        if (f.x > w + 4*DPR){ f.x = -4*DPR; }
+
+        ctx.globalAlpha = f.o;
+        ctx.fillStyle = 'rgba(0,255,156,1)';
+        ctx.shadowColor = 'rgba(0,255,156,0.8)';
+        ctx.shadowBlur = 8 * DPR;
+        ctx.beginPath();
+        ctx.arc(f.x, f.y, f.r, 0, Math.PI*2);
+        ctx.fill();
+      }
+      ctx.restore();
+      requestAnimationFrame(draw);
+    }
+
+    resize();
+    draw();
+    window.addEventListener('resize', resize, {passive:true});
+  })();
+</script>
+</body>
+</html>
